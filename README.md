@@ -61,6 +61,48 @@ Now install VcXrv
 https://sourceforge.net/projects/vcxsrv/files/latest/download
 
 
+STEPS TO INSTALL VCXRV
+
+Don't deny anything follow the steps in flow 
+
+Now you will see X symbol in the bottom of your desktop(hidden in arrow near network connections)
+
+To get license 
+
+https://surfer.nmr.mgh.harvard.edu/registration.html
+
+Entry your details, Download it and paste that in Freesurfer file in C drive
+
+Download sh.sh file that i dropped
+
+Put that file in freesurfer file 
+
+to install JPEG library- (In UBUNTU) -Type
+
+sudo apt-get install libpeg62
+
+Now to open GUI 
+
+Type in ubuntu as follow
+
+cat /etc/resolv.conf
+
+(you will get your windows ip address)
+
+export DISPLAY= (type window ip address):0.0
+
+export LIBGL_ALWAYS_INDIRECT=1
+
+(Now to check GUI working )TYPE
+
+xeyes
+
+(you will see separate tab with eye)
+
+It works
+
+Now you are ready to try examples in freesurfer
+
 
 
 
