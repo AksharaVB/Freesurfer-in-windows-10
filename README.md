@@ -13,7 +13,7 @@ STEP 1
 
 2)Turn ON or CHECK the box a)Virtual Machine Platform b)Windows Subsystem for Linux
 
-~Restart the computer~
+(Restart the computer)
 
 STEP 2
 
@@ -28,7 +28,7 @@ and set password -usually the password you are typing will be invisible
 
 when you will see our username +@+ desktop no.
 
-tip: Command ls /mnt/     ~Used to navigate into the drive in windows~
+tip: Command ls /mnt/     Used to navigate into the drive in windows
 
 STEP 3:
 
@@ -50,7 +50,7 @@ export FREESURFER_HOME= cd /mnt/c/Users/(Username of window)/freesurfer
 
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 
-~get the output~
+(get the output)
 
 Type in 
 
